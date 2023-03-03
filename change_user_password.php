@@ -17,7 +17,7 @@
             $result["UserPasswordUpdate"] = $password;
             print json_encode($result);
         }else{
-            $result["errors"] = 1;
+            $result["errors"] = 2;
             $result["msg_errors"] = "Faild to change your password";
             print json_encode($result);
         }
